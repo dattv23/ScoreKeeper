@@ -2,13 +2,14 @@ import { View, Text, TextInput, TouchableHighlight } from 'react-native'
 import React, { useEffect, useState } from 'react'
 
 import styles from '../assets/styles'
+import { MatchScreenProps } from '../navigator/type';
 
 export type MatchProps = {
     name: string;
     numberOfTeams: number;
 }
 
-export default function Match({ navigation }: any) {
+export default function Match({ navigation }: MatchScreenProps) {
     const [name, setName] = useState<string>();
     const [numberOfTeams, setNumberOfTeams] = useState<number>();
     const [matchCurrent, setMatchCurrent] = useState<MatchProps>();
@@ -19,7 +20,7 @@ export default function Match({ navigation }: any) {
             setIsLoading(false);
             navigation.navigate('Register', { matchCurrent: matchCurrent });
         }
-    }, [matchCurrent, navigation]);
+    }, [matchCurrent]);
 
 
     const createMatch = () => {

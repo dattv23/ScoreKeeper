@@ -1,8 +1,9 @@
 import { View, Text, TouchableHighlight } from 'react-native'
 import React from 'react'
 import styles from '../assets/styles'
+import { KeeperScreenProps } from '../navigator/type';
 
-export default function Home({ navigation }: any) {
+export default function Home({ navigation }: KeeperScreenProps) {
     return (
         <View style={styles.container}>
             <TouchableHighlight

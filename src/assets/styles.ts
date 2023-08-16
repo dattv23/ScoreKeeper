@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
         borderBottomWidth: 1,
         marginBottom: 8
     },
-    register: {
+    scrollView: {
         height: '100%',
         backgroundColor: '#322653',
     },
@@ -54,16 +54,14 @@ const styles = StyleSheet.create({
         borderRadius: 8
     },
     box: {
-        display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        marginHorizontal: 14,
+        marginHorizontal: 20,
         marginVertical: 10,
         backgroundColor: '#012755',
         borderRadius: 20
     },
     boxTeams: {
-        display: 'flex',
         flexDirection: 'row',
         flexWrap: 'wrap',
         justifyContent: 'space-between',
@@ -86,6 +84,13 @@ const styles = StyleSheet.create({
         borderRadius: 16,
         padding: 16,
         width: '80%'
+    },
+    dashboardItem: {
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        margin: 16
     }
 });
 

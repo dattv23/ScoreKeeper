@@ -31,7 +31,7 @@ export default function SearchTeam() {
             {isFound ? (
                 <View style={[styles.box, { padding: 8 }]}>
                     <Text>{team?.name}</Text>
-                    <Image source={{ uri: team?.avatar }} style={{ width: 150, height: 150 }}></Image>
+                    <Image testID='team-avatar' source={{ uri: team?.avatar }} style={{ width: 150, height: 150 }}></Image>
                     <Text>Number of wins: {team?.numberOfWins}</Text>
                     <Text>Score current: {team?.scoreCurrent}</Text>
                     <Text>Match current: {team?.matchCurrent.name}</Text>

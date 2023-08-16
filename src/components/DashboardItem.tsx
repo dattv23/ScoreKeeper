@@ -5,33 +5,27 @@ import { TeamProps } from './RegisterTeam';
 
 type ItemProps = {
     item: TeamProps;
-    teams: TeamProps[];
-    setTeams: (newTeams: TeamProps[]) => void;
+    listTeam: TeamProps[];
+    setListTeam: (newList: TeamProps[]) => void;
 }
 
-export default function DashboardItem({ item, teams, setTeams }: ItemProps) {
+export default function DashboardItem({ item, listTeam, setListTeam }: ItemProps) {
     const handleSubScore = (name: string, scoreCurrent: number) => {
-        const updatedTeams = teams.map((team) =>
+        const updatedTeams = listTeam.map((team) =>
             team.name === name ? { ...team, scoreCurrent: scoreCurrent - 1 } : team
         );
-        setTeams(updatedTeams);
+        setListTeam(updatedTeams);
     }
 
     const handleAddScore = (name: string, scoreCurrent: number) => {
-        const updatedTeams = teams.map((team) =>
+        const updatedTeams = listTeam.map((team) =>
             team.name === name ? { ...team, scoreCurrent: scoreCurrent + 1 } : team
         );
-        setTeams(updatedTeams);
+        setListTeam(updatedTeams);
     }
 
     return (
-        <View key={item.id} style={{
-            display: 'flex',
-            flexDirection: 'row',
-            justifyContent: 'space-between',
-            alignItems: 'center',
-            margin: 16
-        }}>
+        <View key={item.id} style={styles.dashboardItem}>
             <Text>{item.name}</Text>
             <TouchableHighlight onPress={() => {
                 handleSubScore(item.name, item.scoreCurrent);
