@@ -13,10 +13,10 @@ const Stack = createNativeStackNavigator<MainStackParamList>();
 export default function MyStack() {
     return (
         <Stack.Navigator screenOptions={{ headerStyle: { backgroundColor: '#322653' } }}>
-            <Stack.Screen options={{ headerTitleStyle: { color: '#FFD2D7' }, headerTitleAlign: 'center' }} name="Keeper" component={Home} />
+            <Stack.Screen options={{ title: 'Score Keeper', headerTitleStyle: { color: '#FFD2D7' }, headerTitleAlign: 'center' }} name="Keeper" component={Home} />
             <Stack.Screen options={{ headerTitleStyle: { color: '#FFD2D7' }, headerTitleAlign: 'center' }} name="Match" component={Match} />
             <Stack.Screen options={{ headerTitleStyle: { color: '#FFD2D7' }, headerTitleAlign: 'center' }} name="Register" component={RegisterTeam} />
-            <Stack.Screen options={{ headerTitleStyle: { color: '#FFD2D7' }, headerTitleAlign: 'center' }} name="Search" component={SearchTeam} />
+            <Stack.Screen options={{ title: 'Search Team', headerTitleStyle: { color: '#FFD2D7' }, headerTitleAlign: 'center' }} name="Search" component={SearchTeam} />
             <Stack.Screen options={{ headerTitleStyle: { color: '#FFD2D7' }, headerTitleAlign: 'center' }} name="Display" component={Display} />
         </Stack.Navigator>
     )
