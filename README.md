@@ -77,3 +77,13 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+# Images of project
+  ![z4607497943529_6aa2483f499c26da7a7c33b28e502623](https://github.com/soiiicodon/ScoreKeeper/assets/94770505/c9d63bb2-010c-4a39-9dcc-397d5283ad02)
+  ![z4607497943530_0ea1fcdc5c8fe32152ee941c5f98365e](https://github.com/soiiicodon/ScoreKeeper/assets/94770505/1173a37b-1aca-46f7-9b75-df62cf722fab)
+  ![z4607497926300_3fbe796e4d0451c753dd1841e54e7172](https://github.com/soiiicodon/ScoreKeeper/assets/94770505/9e832f0c-7e24-4ca2-8d70-0ddb13d3990d)
+  ![z4607497932305_3a67a63f7d8fc0e6eb96fe614b5f07d1](https://github.com/soiiicodon/ScoreKeeper/assets/94770505/297cb8f4-1a2d-4be9-a8b8-f5d6b0324f08)
+  ![z4607497935945_c5adf92c6046a463ca3a541e9373bf60](https://github.com/soiiicodon/ScoreKeeper/assets/94770505/1d04dc33-dda1-48a7-92b4-1f8372ece928)
+  ![z4607497939528_8400c68cca25e156e3aa43033fad7411](https://github.com/soiiicodon/ScoreKeeper/assets/94770505/c9163b51-ed25-49d1-9ed1-c764d2a8463a)
+  ![z4607497943531_f470ff653751a519c9143e91f3b9f77e](https://github.com/soiiicodon/ScoreKeeper/assets/94770505/85f40633-4d92-4d7d-92b3-767a62533ec8)
+
